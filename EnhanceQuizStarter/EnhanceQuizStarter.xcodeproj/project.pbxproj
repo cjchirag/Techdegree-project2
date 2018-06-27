@@ -295,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9E84DX62H;
+				DEVELOPMENT_TEAM = MD6G64TNWK;
 				INFOPLIST_FILE = EnhanceQuizStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.EnhanceQuizStarter;
@@ -310,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9E84DX62H;
+				DEVELOPMENT_TEAM = MD6G64TNWK;
 				INFOPLIST_FILE = EnhanceQuizStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.EnhanceQuizStarter;

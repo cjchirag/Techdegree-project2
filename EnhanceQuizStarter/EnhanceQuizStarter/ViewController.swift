@@ -12,9 +12,22 @@ import AudioToolbox
 
 class ViewController: UIViewController {
     
+    var gameSound: SystemSoundID = 0
+    
     override func viewDidLoad() {
          super.viewDidLoad()
          loadQuestion()
+         loadGameStartSound()
+         playGameStartSound()
+    }
+    func loadGameStartSound() {
+        let path = Bundle.main.path(forResource: "GameSound", ofType: "wav")
+        let soundUrl = URL(fileURLWithPath: path!)
+        AudioServicesCreateSystemSoundID(soundUrl as CFURL, &gameSound)
+    }
+    
+    func playGameStartSound() {
+        AudioServicesPlaySystemSound(gameSound)
     }
     
     let gameManager = GameManager()
