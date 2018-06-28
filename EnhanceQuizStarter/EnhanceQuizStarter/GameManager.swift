@@ -9,6 +9,7 @@
 import UIKit
 import GameKit
 
+// Instance for the Quiz class
 let selectedQuiz = Quiz()
 
 class GameManager {

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 import GameKit
-
+// struct to model questions
 struct Question {
     var theQuestion: String
     var possibleAnswers: [String]

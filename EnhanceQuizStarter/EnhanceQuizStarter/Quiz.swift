@@ -23,9 +23,10 @@ let question_ten = Question(theQuestion: "Which of these countries won the most 
 
 class Quiz {
     var questions: [Question] = [question_one, question_two, question_three, question_four, question_five, question_six, question_seven, question_eight, question_nine, question_ten]
-    var askedQuestions: [Int] = []
+    var askedQuestions: [Int] = [] // keeping track of asked questions
+    // A function to return the question to be asked
     func selectedQuestion() -> Question {
-        let index = GKRandomSource.sharedRandom().nextInt(upperBound: questions.count)
+        let index = GKRandomSource.sharedRandom().nextInt(upperBound: questions.count) //generating random number to select the question in questions array.
         if !(self.askedQuestions.contains(index)) {
             self.askedQuestions.append(index)
             return questions[index]
